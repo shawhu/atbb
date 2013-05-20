@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ProceduralPlanet 3
+  m_Shader: {fileID: 4800000, guid: 430cdb23723644bf0a724c74fc838372, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture1
+        second:
+          m_Texture: {fileID: 2800000, guid: 52859df90a10242c6a8473526b45b64e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RampTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 5f2ea7bde007c46bdb24742af9c89d8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture2
+        second:
+          m_Texture: {fileID: 2800000, guid: 419e17f06e78a463da54f81dbf883f28, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseBump
+        second:
+          m_Texture: {fileID: 2800000, guid: c9a1a6598bafbd54f8b17c7245354ea4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: b011c130bd7214d6b9b96ec046f428ff, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise1
+        second:
+          m_Texture: {fileID: 2800000, guid: 52859df90a10242c6a8473526b45b64e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise2
+        second:
+          m_Texture: {fileID: 2800000, guid: cb666a4e8bc8b4115af2f1c475280f8d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 27b9e5b38571f3746a2d9392b6ba9fe9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise1Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 06730383a276c4b28adb4f848b64b838, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise2Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 52859df90a10242c6a8473526b45b64e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _VolumeTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: permTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 17744a5d91506457a86ea6af6bcd44d0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: simplexTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 17744a5d91506457a86ea6af6bcd44d0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpTexture1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .499337018
+      data:
+        first:
+          name: _Seed
+        second: .57187897
+      data:
+        first:
+          name: _NoiseScale1
+        second: .200000003
+      data:
+        first:
+          name: _BandFilter
+        second: .50746268
+      data:
+        first:
+          name: _BandWidth
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 3.49969673
+      data:
+        first:
+          name: _CityScale
+        second: 3
+      data:
+        first:
+          name: _CityWidth
+        second: .0253731366
+      data:
+        first:
+          name: _CityRimPower
+        second: 16.0447769
+      data:
+        first:
+          name: _NoiseScale2
+        second: 0
+      data:
+        first:
+          name: _Freq2
+        second: .100000001
+      data:
+        first:
+          name: _NoiseScale
+        second: .100000001
+      data:
+        first:
+          name: _LineWidth
+        second: .00999999978
+      data:
+        first:
+          name: _Noise1Scale
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .0385820828, g: .538675547, b: .614447296, a: 1}
+      data:
+        first:
+          name: _BandFilter
+        second: {r: 0, g: 0, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .396078438, g: .442753315, b: .686274529, a: 0}
+      data:
+        first:
+          name: _CityLightColor
+        second: {r: .957520068, g: 1, b: .723880589, a: 1}
+      data:
+        first:
+          name: _WaterColor
+        second: {r: .177378044, g: .194920927, b: .679104447, a: 1}
+      data:
+        first:
+          name: _Tint1
+        second: {r: 0, g: 0, b: 1, a: 1}
+      data:
+        first:
+          name: _Tint2
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LineColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _GridColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
