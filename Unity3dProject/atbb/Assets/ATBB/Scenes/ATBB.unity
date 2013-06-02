@@ -122,7 +122,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: 64d5b264b643d4cceb48c588727c6146, type: 3}
 --- !u!1 &237441672
 GameObject:
@@ -222,7 +222,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: a522a6f29c3d646f686761632b84e0e8, type: 3}
 --- !u!1 &679920490
 GameObject:
@@ -315,7 +315,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: fef852aedfac4409092d69a78a51cab1, type: 3}
 --- !u!1 &763738001
 GameObject:
@@ -564,7 +564,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: 8a23aa1e5222e41e189cf2e17ad61e1f, type: 3}
 --- !u!1 &1248917756
 GameObject:
@@ -757,7 +757,7 @@ MonoBehaviour:
     targetRoot: {fileID: 236291576}
     _targetPath: Galaxy04.transform
     targetName: transform
-    foldout: 0
+    foldout: 1
     isActive: 1
     creationTime: 4
     propDatas:
@@ -775,7 +775,7 @@ MonoBehaviour:
       endValInt: 0
       endValString: 
       endValColor: {r: 1, g: 1, b: 1, a: 1}
-    duration: 20
+    duration: 5
     tweenFrom: 0
     paused: 0
     autoKill: 1
@@ -842,7 +842,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532631387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 114.457535, y: -68.4940643, z: -11}
+  m_LocalPosition: {x: 9.37168312, y: -68.4940643, z: -10.999999}
   m_LocalScale: {x: 128, y: 128, z: 1}
   m_Children: []
   m_Father: {fileID: 763738002}
@@ -867,7 +867,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: fa5e9862651d8489e89e28734833f37c, type: 3}
 --- !u!1 &1538277970
 GameObject:
@@ -917,7 +917,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: 7d15036d2c81846e3aeec548f6e318a6, type: 3}
 --- !u!1 &1697939914
 GameObject:
@@ -967,7 +967,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: ed5591596df551e4c8f4b05ce88a7a07, type: 3}
   mTexture: {fileID: 2800000, guid: 846085cbbe1434d6594e3a7b7cd2de77, type: 3}
 --- !u!1 &2042784222
 GameObject:
@@ -992,7 +992,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2042784222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.2071648, y: -198.272125, z: -11}
+  m_LocalPosition: {x: -67.8320007, y: -198.272125, z: -10.999999}
   m_LocalScale: {x: 99.9999542, y: 99.9999542, z: 1}
   m_Children: []
   m_Father: {fileID: 763738002}
@@ -1017,5 +1017,5 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mTexture: {fileID: 2800000, guid: bf11cde40c7bf4c47adc8a450425210c, type: 3}
