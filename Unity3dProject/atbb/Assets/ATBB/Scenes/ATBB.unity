@@ -74,6 +74,56 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &116070343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 116070344}
+  - 114: {fileID: 116070345}
+  m_Layer: 31
+  m_Name: Galaxy01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &116070344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116070343}
+  m_LocalRotation: {x: -.471520931, y: 0, z: 0, w: .881854892}
+  m_LocalPosition: {x: 403.349335, y: 179.993637, z: -80.4958267}
+  m_LocalScale: {x: 127.999863, y: 127.999855, z: 1}
+  m_Children: []
+  m_Father: {fileID: 763738002}
+--- !u!114 &116070345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116070343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+  m_Name: 
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
+  mTexture: {fileID: 2800000, guid: fa5e9862651d8489e89e28734833f37c, type: 3}
 --- !u!1 &236291576
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &653186867
 Transform:
   m_ObjectHideFlags: 0
@@ -248,7 +298,7 @@ Transform:
   m_GameObject: {fileID: 679920490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .00342465751, y: .00342465751, z: .00342465751}
+  m_LocalScale: {x: .00379506638, y: .00379506638, z: .00379506638}
   m_Children:
   - {fileID: 1147699748}
   m_Father: {fileID: 0}
@@ -282,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &752318001
 Transform:
   m_ObjectHideFlags: 0
@@ -344,6 +394,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1532631388}
+  - {fileID: 909971677}
+  - {fileID: 116070344}
   - {fileID: 653186867}
   - {fileID: 1203573940}
   - {fileID: 236291577}
@@ -372,6 +424,56 @@ MonoBehaviour:
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
   mClipSoftness: {x: 40, y: 40}
+--- !u!1 &909971676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 909971677}
+  - 114: {fileID: 909971678}
+  m_Layer: 31
+  m_Name: Galaxy01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909971677
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909971676}
+  m_LocalRotation: {x: -.644565105, y: 0, z: 0, w: .764549434}
+  m_LocalPosition: {x: 232.570572, y: 182.838959, z: -80.4958267}
+  m_LocalScale: {x: 127.999863, y: 127.999855, z: 1}
+  m_Children: []
+  m_Father: {fileID: 763738002}
+--- !u!114 &909971678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909971676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+  m_Name: 
+  mMat: {fileID: 0}
+  mTex: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
+  mTexture: {fileID: 2800000, guid: fa5e9862651d8489e89e28734833f37c, type: 3}
 --- !u!1 &1068866542
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +513,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1068866542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.499789238, y: 0, z: 0}
+  m_LocalPosition: {x: .499994338, y: .50001061, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 763738002}
@@ -531,7 +633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1203573940
 Transform:
   m_ObjectHideFlags: 0
@@ -601,6 +703,112 @@ MonoBehaviour:
     foldout: 0
     isActive: 1
     creationTime: 1
+    propDatas:
+    - _propType: UnityEngine.Quaternion, UnityEngine
+      _pluginType: Holoville.HOTween.Plugins.PlugQuaternion, HOTween
+      _valueType: UnityEngine.Vector3, UnityEngine
+      propName: localRotation
+      shortPropType: Quaternion
+      isRelative: 1
+      isActive: 1
+      endValVector2: {x: 0, y: 0}
+      endValVector3: {x: 0, y: 0, z: 18}
+      endValVector4: {x: 0, y: 0, z: 0, w: 0}
+      endValFloat: 0
+      endValInt: 0
+      endValString: 
+      endValColor: {r: 1, g: 1, b: 1, a: 1}
+    duration: 2
+    tweenFrom: 0
+    paused: 0
+    autoKill: 1
+    updateType: 0
+    delay: 0
+    id: 
+    loopType: 3
+    loops: -1
+    timeScale: 1
+    easeType: 0
+    onCompleteActionType: 0
+    onCompletePlayId: 
+    onCompleteTarget: {fileID: 0}
+    onCompleteMethodName: 
+    onCompleteParmType: 0
+    onCompleteParmColor: {r: 0, g: 0, b: 0, a: 1}
+    onCompleteParmNumber: 0
+    onCompleteParmObject: {fileID: 0}
+    onCompleteParmQuaternion: {x: 0, y: 0, z: 0, w: 0}
+    onCompleteParmRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    onCompleteParmString: 
+    onCompleteParmVector2: {x: 0, y: 0}
+    onCompleteParmVector3: {x: 0, y: 0, z: 0}
+    onCompleteParmVector4: {x: 0, y: 0, z: 0, w: 0}
+  - _targetType: UnityEngine.Transform, UnityEngine
+    target: {fileID: 909971677}
+    targetRoot: {fileID: 909971676}
+    _targetPath: Galaxy01.transform
+    targetName: transform
+    foldout: 0
+    isActive: 1
+    creationTime: 6
+    propDatas:
+    - _propType: UnityEngine.Quaternion, UnityEngine
+      _pluginType: Holoville.HOTween.Plugins.PlugQuaternion, HOTween
+      _valueType: UnityEngine.Vector3, UnityEngine
+      propName: localRotation
+      shortPropType: Quaternion
+      isRelative: 1
+      isActive: 1
+      endValVector2: {x: 0, y: 0}
+      endValVector3: {x: 0, y: 0, z: 18}
+      endValVector4: {x: 0, y: 0, z: 0, w: 0}
+      endValFloat: 0
+      endValInt: 0
+      endValString: 
+      endValColor: {r: 1, g: 1, b: 1, a: 1}
+    duration: 2
+    tweenFrom: 0
+    paused: 0
+    autoKill: 1
+    updateType: 0
+    delay: 0
+    id: 
+    loopType: 3
+    loops: -1
+    timeScale: 1
+    easeType: 0
+    onCompleteActionType: 0
+    onCompletePlayId: 
+    onCompleteTarget: {fileID: 0}
+    onCompleteMethodName: 
+    onCompleteParmType: 0
+    onCompleteParmColor: {r: 0, g: 0, b: 0, a: 1}
+    onCompleteParmNumber: 0
+    onCompleteParmObject: {fileID: 0}
+    onCompleteParmQuaternion: {x: 0, y: 0, z: 0, w: 0}
+    onCompleteParmRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    onCompleteParmString: 
+    onCompleteParmVector2: {x: 0, y: 0}
+    onCompleteParmVector3: {x: 0, y: 0, z: 0}
+    onCompleteParmVector4: {x: 0, y: 0, z: 0, w: 0}
+  - _targetType: UnityEngine.Transform, UnityEngine
+    target: {fileID: 116070344}
+    targetRoot: {fileID: 116070343}
+    _targetPath: Galaxy01.transform
+    targetName: transform
+    foldout: 1
+    isActive: 1
+    creationTime: 7
     propDatas:
     - _propType: UnityEngine.Quaternion, UnityEngine
       _pluginType: Holoville.HOTween.Plugins.PlugQuaternion, HOTween
@@ -757,7 +965,7 @@ MonoBehaviour:
     targetRoot: {fileID: 236291576}
     _targetPath: Galaxy04.transform
     targetName: transform
-    foldout: 1
+    foldout: 0
     isActive: 1
     creationTime: 4
     propDatas:
@@ -807,7 +1015,7 @@ MonoBehaviour:
     onCompleteParmVector4: {x: 0, y: 0, z: 0, w: 0}
   globalDelay: 0
   globalTimeScale: 1
-  creationTime: 5
+  creationTime: 7
 --- !u!4 &1248917758
 Transform:
   m_ObjectHideFlags: 0
@@ -842,7 +1050,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532631387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.37168312, y: -68.4940643, z: -10.999999}
+  m_LocalPosition: {x: 60.1212082, y: 183.569275, z: -80.4958725}
   m_LocalScale: {x: 128, y: 128, z: 1}
   m_Children: []
   m_Father: {fileID: 763738002}
@@ -984,7 +1192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2042784223
 Transform:
   m_ObjectHideFlags: 0
